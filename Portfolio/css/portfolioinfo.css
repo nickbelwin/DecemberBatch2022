@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background: #ebeef1;
+}
+header{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .625rem 1%;
+    margin: 10px 13% 0 13%;
+    background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
+    border-radius: 10px;
+    box-shadow: -5px 3px 10px #b1b1b1, 0px 5px 8px #ffffff;
+    /* border: 2px solid rgb(231, 220, 220); */
+}
+.logo{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: rgb(69, 69, 69);
+    background: #f0f0f0;
+}
+.logo span{
+    color: rgb(151, 0, 181);
+    background: #f0f0f0;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: rgb(67, 67, 67);
+    background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
+    /* margin-right: 2.5rem; */
+    padding: 3px 10px;
+    background: red;
+    font-size: 1.5rem;
+    font-weight: 800;
+    background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
+    border-radius: 10px;
+    box-shadow: -5px 3px 10px #b1b1b1, 0px 5px 8px #ffffff;
+}
+
+.letstalk a{
+    background-color: rgb(47, 99, 255);
+    padding: 12px 19px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.main{
+    background: #ebeef1;
+    height: 100vh;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 125px;
+}
+.main-container{
+    height: 100vh;
+    width: 73vw;
+    margin: 0 13%;
+    background: #ebeef1;
+}
+.first-row{
+    display: flex;
+    background: #ebeef1;
+    height: 80%;
+    padding: 20px 20px 0 20px;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 27px;
+}
+.firstrow-box1{
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 17px 22px 10px 17px;
+    height: 99%;
+    background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
+    border-radius: 30px;
+    box-shadow: -5px 3px 10px #b1b1b1, 0px 5px 8px #ffffff;
+    transition: .4s;
+}
+.firstrow-box1 img{
+    width: 200px;
+}
+.firstrow-box1:hover{
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+    10px 10px 15px rgba(70,70,70,0.12),
+    inset -10px -10px 15px rgba(255, 255, 255, 0.5),
+    inset 10px 10px 15px rgba(70,70,70,0.12);
+}
+.myname{
+    text-align: center;
+}
+.myname h2{
+    font-size: 16px;
+    color: #b1b1b1;
+    font-weight: 400;
+}
+.mysocialmedia{
+    display: flex;
+    column-gap: 20px;
+    /* justify-content: center; */
+}
+.mysocialmedia p i{
+    padding: 20px 19px;
+    background: grey;
+    border-radius: 50%;
+    background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
+    box-shadow: -5px 3px 10px #b1b1b1, 0px 5px 8px #ffffff;
+}
+.mysocialmedia p i:hover{
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+    10px 10px 15px rgba(70,70,70,0.12),
+    inset -10px -10px 15px rgba(255, 255, 255, 0.5),
+    inset 10px 10px 15px rgba(70,70,70,0.12);
+}
+#facebook{
+    padding: 20px 22px;
+    background: grey;
+    border-radius: 50%;
+    background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
+    box-shadow: -5px 3px 10px #b1b1b1, 0px 5px 8px #ffffff;
+}
+#facebook:hover{
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+    10px 10px 15px rgba(70,70,70,0.12),
+    inset -10px -10px 15px rgba(255, 255, 255, 0.5),
+    inset 10px 10px 15px rgba(70,70,70,0.12);
+}
+.contactme a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: 10px 116px;
+    border-radius: 30px;
+    background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
+    box-shadow: -5px 3px 10px #b1b1b1, 0px 5px 8px #ffffff;
+}
+.contactme a:hover{
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+    10px 10px 15px rgba(70,70,70,0.12),
+    inset -10px -10px 15px rgba(255, 255, 255, 0.5),
+    inset 10px 10px 15px rgba(70,70,70,0.12);
+}
+.firstrow-box2{
+    width: 70%;
+    /* background: yellow; */
+    margin: 0 10px;
+    height: 100%;
+}
+.firstrow-box2 h1{
+    font-size: 67px;
+}
+.portfolio-row1{
+    /* background: #2e2a2a; */
+    display: flex;
+    /* margin-bottom: 0px; */
+    /* background: violet; */
+}
+
+.portfolio{
+    background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: -5px 3px 10px #b1b1b1, 0px 5px 8px #ffffff;
+    transition: .4s;
+    width: 46%;
+    height: 30%;
+}
+.portfolio img{
+  width: 100%;
+}
+.portfolio1{
+    margin-right: 10px;
+
+}
+.portfolio:hover{
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+    10px 10px 15px rgba(70,70,70,0.12),
+    inset -10px -10px 15px rgba(255, 255, 255, 0.5),
+    inset 10px 10px 15px rgba(70,70,70,0.12);
+}
+.portfolio2{
+    margin-left: 10px;
+
+}
+.portfolio-row2{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.portfolio3{
+    margin-right: 10px;
+
+
+}
+.portfolio4{
+    margin-left: 10px;
+
+  
+}
+.mywork h5{
+    font-size: 10px;
+}
+.mywork a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.mywork a:hover{
+    color: #311afffa;
+}
+.commingsoon{
+    background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0px 34px;
+    width: 91%;
+    box-shadow: -5px 3px 10px #b1b1b1, 0px 5px 8px #ffffff;
+    transition: .4s;
+}
+.commingsoon a{
+    text-decoration: none;
+    color: black;
+    
+}
+.commingsoon h1{
+    font-size: 40px;
+    background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
+}
+.commingsoon span{
+    color: blue;
+}
+.commingsoon:hover{
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+    10px 10px 15px rgba(70,70,70,0.12),
+    inset -10px -10px 15px rgba(255,255,255,0.5),
+    inset 10px 10px 15px rgba(70,70,70,0.12);
+}
+footer{
+    margin: 0 13% 10px 13%;
+}
+.footerbox{
+    text-align: center;
+    background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0px 0px;
+    width: 97%;
+    box-shadow: -5px 3px 10px #b1b1b1, 0px 5px 8px #ffffff;
+    transition: .4s;
+}
+.footerbox p{
+    font-weight: 600;
+}
+.footerbox span{
+    color: blue;
+}
