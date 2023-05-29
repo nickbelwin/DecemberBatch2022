@@ -3,9 +3,16 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body{
-    background: #ebeef1;
+    background: #ebeef1; 
 }
-header{
+.spaceheader{
+    height: 10px;
+    width: 100%;
+    background-color: #ebeef1;
+    position: fixed;
+    top: 0;
+}
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,25 +26,30 @@ header{
 .logo{
     font-size: 1.8rem;
     font-weight: 700;
-    color: rgb(69, 69, 69);
+    color: rgb(8, 8, 8);
 }
 .logo span{
-    color: rgb(151, 0, 181);
+    color: rgb(39, 0, 181);
 }
 
 .navbar a{
     text-decoration: none;
     color: rgb(67, 67, 67);
-    background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
+    background: transparent;
+    /* background: linear-gradient(225deg, #fdfdfd, #f0f0f0); */
     margin-right: 2.5rem;
     font-size: 1.1rem;
     font-weight: 500;
 }
+.navbar .active{
+    color: blue;
+}
 .navbar a:hover{
-    box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+    color: blue;
+    /* box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
     10px 10px 15px rgba(70,70,70,0.12),
     inset -10px -10px 15px rgba(255, 255, 255, 0.5),
-    inset 10px 10px 15px rgba(70,70,70,0.12);
+    inset 10px 10px 15px rgba(70,70,70,0.12); */
 }
 .letstalk a{
     background-color: rgb(47, 99, 255);
@@ -48,20 +60,21 @@ header{
     font-weight: 600;
 }
 .main{
-    background: #ebeef1;
+    /* background: #ebeef1; */
     height: 100vh;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 70px;
     margin-bottom: 4%;
 }
 .main-container{
     height: 80vh;
     width: 73vw;
     margin: 0 13% 20px 13%;
-    background: #ebeef1;
+    transition: 0.6s;
+    /* background: #ebeef1; */
 }
 .first-rowbox {
-    background: #ebeef1;
+    /* background: #ebeef1; */
     height: 49%;
     padding: 20px 20px 0 20px;
     padding: 20px;
@@ -90,6 +103,9 @@ header{
     color: black;
     padding: 0 10px;
 }
+.mypicbox{
+    width: 90%;
+}
 .firstrow-box a img{
     width: 90%;
 }
@@ -100,11 +116,16 @@ header{
     inset -10px -10px 15px rgba(255, 255, 255, 0.5),
     inset 10px 10px 15px rgba(70,70,70,0.12);
 }
-
+.my-pic-info h5{
+    margin-bottom: 10px;
+}
 .my-pic-info h1{
     font-size: 30px;
     color: rgb(69, 69, 247);
     font-weight: 800;
+}
+.my-pic-info .belwalkar{
+    margin-bottom: 10px;
 }
 /* .mypicbox{
     display: flex;
@@ -114,7 +135,7 @@ header{
 } */
 .inner-firstrow {
    /* background: #ececec; */
-    width: 50%;
+    width: 60%;
     margin: 0 10px;
     height: 100%;
     
@@ -132,12 +153,15 @@ header{
     background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
     border-radius: 30px;
     margin-bottom: 20px;
-    box-shadow: -10px -10px15px rgba(255,255,255,0.5),
-    10px 10px 15px rgba(70,70,70,0.12);
+    letter-spacing: 1.4px;
+    box-shadow: -5px 3px 10px #b1b1b1, 0px 5px 8px #ffffff;
     transition: .4s;
-    border: 8px solid #ececec;
-    outline: none;
+    /* border: 8px solid #ececec;
+    outline: none; */
 } 
+.line-box span{
+    color: blue;
+}
 .line-box:hover{
     box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
     10px 10px 15px rgba(70,70,70,0.12),
@@ -186,7 +210,7 @@ header{
     inset 10px 10px 15px rgba(70,70,70,0.12);
 }
 .second-rowbox{
-    background-color:#ececec;
+    /* background-color:#ececec; */
     height: 40%;
     padding: 20px 20px 0 20px;
     padding: 20px;
@@ -350,7 +374,7 @@ footer{
     border-radius: 20px;
     padding: 20px;
     /* margin: 0px 35px; */
-    width: 98%;
+    width: 96%;
     box-shadow: -5px 3px 10px #b1b1b1, 0px 5px 8px #ffffff;
     transition: .4s;
 }
