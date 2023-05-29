@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Attribute Selector</title>
+        <style>
+            *{
+                margin: 10px;
+            }
+            /* .input{
+                border: 2px solid rgb(38, 0, 255);
+            } */
+            input[type="text"]{
+                border: 2px solid red;
+                border-radius: 5px;
+            }
+            input[type="number"]{
+                border: 2px solid rgb(179, 0, 255);
+            }
+            input[type="email"]{
+                border: 2px solid rgb(0, 255, 21);
+            }
+            a[target="_blank"]{
+                color: rgb(1, 120, 120);
+                text-decoration: none;
+            }
+            /* to target the keyword */
+            div[title~="Relax"]{
+                background-color: black;
+                padding: 5px;
+                color: red;
+                font-weight: bold;
+            }
+            div[title~="cool"]{
+                background-color: rgb(255, 57, 57);
+                padding: 5px;
+                color: rgb(0, 0, 0);
+                font-weight: bold;
+            }
+
+            /* to get similer keyword */
+            img[alt~="music"]{
+                border: 5px orangered solid;
+                width: 50px;
+            }
+
+            /* to get similer keyword */
+            img[alt~="song"]{
+                border: 5px rgb(4, 255, 0) solid;
+                width: 100px;
+            }
+
+            /* after keyword need "-" */
+            img[alt|="dog"]{
+                border: 5px rgb(255, 251, 0) solid;
+                width: 100px;
+            }
+
+            /* keyword start only first */
+            span[class^="aqua"]{
+                color: blue;
+                font-weight: bold;
+            }
+
+            /* keyword at only last */
+            span[class$="aqua"]{
+                color: rgb(0, 213, 255);
+                font-weight: bold;
+            }
+
+            /* keyword with given name in any class*/
+            span[class*="1"]{
+                color: rgb(42, 193, 22);
+                font-weight: bold;
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <form>
+            <input type="text" placeholder="Enter a name" class="input">
+            <input type="text" placeholder="Enter a last name" class="input">
+            <input type="text" placeholder="Enter city" class="input">
+            <input type="text" placeholder="Enter pincode" class="input">
+            <input type="text" placeholder="Enter organization name" class="input">
+            <input type="text" placeholder="Enter organization id" class="input">
+            <input type="text" placeholder="Enter Org city" class="input">
+            <input type="text" placeholder="Enter Org Gstin" class="input">
+            <input type="number" placeholder="Enter a mobile number">
+            <input type="email" placeholder="Enter a email">
+            <a href="/instructor1/Tutorial10_flex_23_04_23.html" target="_blank" title="Tutorial1">Click here 1</a>
+            <a href="/instructor1/Tutorial11_form_25_04_23.html" target="blank" title="Tutorial2">Click here 2</a>
+            <div title="Hey Relax">This is div 1</div>
+            <div title="chill cool">This is div 2</div>
+            <div title="cool">This is div 3</div>
+            <div title="got Relax">This is div 4</div>
+
+            <img src="/image/music1img.jpg" alt="music 1">
+            <img src="/image/music2img.png" alt="song 2">
+            <img src="/image/music2img.png" alt="song 3">
+            <img src="/image/music1img.jpg" alt="music 4">
+
+            <div></div>
+
+            <img src="/image/dog2.jpg" alt="dog-1">
+            <img src="/image/dog.jpg" alt="dog-2">
+            <img src="/image/dog.jpg" alt="dog-3">
+            <img src="/image/dog2.jpg" alt="dog-4">
+
+            <div></div>
+
+            <span class="aquaisreal">I am first span</span>
+            <span class="isrealaqua">I am second span</span>
+
+            <div></div>
+
+            <span class="aquaisreal1">I am first span</span>
+            <span class="isreal1aqua">I am second span</span>
+            <span class="aq2uaisreal">I am first span</span>
+            <span class="isreal2aq2ua">I am second span</span>
+            <span class="aquaisreal1">I am first span</span>
+            <span class="isreal1aqua">I am second span</span>
+        </form>
+         
+    </body>
+</html>

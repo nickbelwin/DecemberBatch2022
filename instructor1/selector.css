@@ -1,0 +1,29 @@
+*{
+    padding: 10px;
+    background-color: bisque;
+}
+#idselector{
+    background-color: blueviolet;
+    margin-bottom: 10px;
+}
+.class{
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+label{
+    background-color: black;
+    color: aliceblue;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+span, p{
+    background-color: rgb(22, 229, 53);
+
+}
+.decend p{
+    background-color: rgb(193, 127, 28);
+    padding: 0%;
+    border: 0;
+}

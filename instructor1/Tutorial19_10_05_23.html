@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .name{
+            position: relative;
+            padding-left: 7px;
+            font-size: 6.25rem;
+            margin-left: 6.25rem;
+            width: 19.9375rem;
+            color: white;
+            background-color: rgb(5, 5, 36);
+            /* opacity: 0; */
+            animation: startRight 2s ease forwards;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+        }
+        .box{
+            font-size: 500px;
+            margin-left: 100px;
+            /* position: relative;
+            font-size: 6.25rem;
+            border: .125rem blue solid;
+            margin-left: 6.25rem;
+            width: 20.15rem;
+            color: white;
+            /* opacity: 0; */
+            animation: heart 2s ease forwards;
+            animation-delay: 1s;
+            animation-iteration-count: infinite; 
+        }
+        @keyframes heart{
+            0%{
+                transform: scale(1.0);
+            }
+            25%{
+                transform: scale(1.2);
+            }
+            50%{
+                transform: scale(1.4);
+            }
+            75%{
+                transform: scale(1.2);
+            }
+            100%{
+                transform: scale(1.0);
+            }
+            }
+        @keyframes startRight{
+            0% {
+            left: 0;
+            top: 0;
+            }
+            25% {
+            /* border: 5px solid peachpuff;
+            background-color: black; */
+            top: 90%;
+            left: 0;
+            /* height: 40px;
+            width: 40px; */
+            }
+
+            50% {
+            /* border: 5px solid red;
+            background-color:blue; */
+            right: 0;
+            /* height: 40px;
+            width: 40px; */
+            bottom: 0;
+            top: 90%;
+            }
+
+            75% {
+            /* border: 10px solid peachpuff;
+            height: 40px;
+            background-color: black;
+            height: 40px;
+            width: 40px; */
+            top: 0;
+            right: 0;
+            left: 90%;
+            }
+            100% {
+            /* border: 4px solid green;
+            height: 40px;
+            width: 40px;
+            background-color: red; */
+            left: 0;
+            top: 0;
+            }
+        }
+        /* @keyframes startRight{
+            0%{
+                transform: translateX(-6.25rem);
+                opacity: 0;
+            }
+            25%{
+                background-color: rgb(5, 5, 36);
+                padding-left: 6.25rem;
+                padding-right: 0;
+                left:0;
+                opacity: .5;
+            }
+            100%{
+                transform: translateX(0rem);
+                opacity: 1;
+                background-color: rgb(5, 5, 36);
+            }
+        } */
+
+    </style>
+</head>
+<body>
+    <div class="name">
+        Sarvesh
+    </div>
+    <div class="box">
+        <i class='bx bxs-heart' ></i>
+    </div>
+</body>
+</html>
