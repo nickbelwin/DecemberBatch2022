@@ -389,23 +389,54 @@ footer{
 .footerbox span{
     color: blue;
 }
-@media screen and(max-width:992px){
-    .header, .first-rowbox, .firstrow-box, .firstrow-box a, .about-info, .second-rowbox, .mycvdownload, .skill-box, .skill-box img, .skill-icon, .skill-box p{
-        flex-direction: column;
+
+@media screen and (max-width: 992px) {
+   .first-rowbox, .firstrow-box, .firstrow-box a, .about-info, .second-rowbox, .second-rowbox, .skill-box, .skill-box img, .skill-box p{
+       flex-direction: column; 
+       gap: 15px;
     }
-    .navbar{
+    .navbar {
         display: none;
     }
-    .main-container{
-        height: fit-content;
-        width: 100vh;
-        margin: 0;
+    .header {
+    margin: 10px;
     }
-    .first-rowbox{
+
+
+    .main-container {
+        height: fit-content;
+        width: 100%;
+        margin: 0 ;
+    
+        /* background: #ebeef1; */
+    }
+    .first-rowbox {
         background: #ebeef1;
         height: 100%;
+    
     }
-    .commingsoon a{
+    
+    .firstrow-box {
+        width: 100%;
+    
+    }
+
+    .inner-firstrow {
+        margin: 10px 10px;
+        height: 100%;
         width: 100%;
     }
+
+    .second-rowbox {
+      
+        height: fit-content;
+  
+    }
+
+.mycvdownload, .skill-box, .socialmedia, .commingsoon {
+
+    width: 100%;
+   
 }
+
+    }
