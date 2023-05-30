@@ -389,7 +389,6 @@ footer{
 .footerbox span{
     color: blue;
 }
-
 @media screen and (max-width: 992px) {
    .first-rowbox, .firstrow-box, .firstrow-box a, .about-info, .second-rowbox, .second-rowbox, .skill-box, .skill-box img, .skill-box p{
        flex-direction: column; 
@@ -428,9 +427,8 @@ footer{
     }
 
     .second-rowbox {
-      
-        height: fit-content;
-  
+      height: fit-content;
+      margin: 0 48px 0 41px;
     }
 
 .mycvdownload, .skill-box, .socialmedia, .commingsoon {
@@ -452,8 +450,7 @@ footer{
 }
 .first-rowbox {
     padding: 0px;
-    
-
+    margin: 0 34px 0 43px;
 }
 .skill-box {
  
