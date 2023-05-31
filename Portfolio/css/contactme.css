@@ -5,6 +5,60 @@
 body{
     background: #ebeef1;
 }
+.spaceheader{
+    height: 10px;
+    width: 100%;
+    background-color: #ebeef1;
+    position: fixed;
+    top: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .625rem 1%;
+    margin: 10px 13% 0 13%;
+    background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
+    border-radius: 10px;
+    box-shadow: -5px 3px 10px #b1b1b1, 0px 5px 8px #ffffff;
+    /* border: 2px solid rgb(231, 220, 220); */
+}
+.logo{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: rgb(8, 8, 8);
+}
+.logo span{
+    color: rgb(39, 0, 181);
+}
+
+.navbar a{
+    text-decoration: none;
+    color: rgb(67, 67, 67);
+    background: transparent;
+    /* background: linear-gradient(225deg, #fdfdfd, #f0f0f0); */
+    margin-right: 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.navbar .active{
+    color: blue;
+}
+.navbar a:hover{
+    color: blue;
+    /* box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+    10px 10px 15px rgba(70,70,70,0.12),
+    inset -10px -10px 15px rgba(255, 255, 255, 0.5),
+    inset 10px 10px 15px rgba(70,70,70,0.12); */
+}
+.letstalk a{
+    background-color: rgb(47, 99, 255);
+    padding: 12px 19px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
 .main{
     background: #ebeef1;
     height: 100vh;
@@ -161,4 +215,25 @@ body{
     10px 10px 15px rgba(70,70,70,0.12),
     inset -10px -10px 15px rgba(255, 255, 255, 0.5),
     inset 10px 10px 15px rgba(70,70,70,0.12);
+}
+footer{
+    margin: 0 13% 10px 13%;
+}
+.footerbox{
+    /* position: fixed;
+    bottom: 5px; */
+    text-align: center;
+    background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
+    border-radius: 20px;
+    padding: 20px;
+    /* margin: 0px 35px; */
+    width: 98%;
+    box-shadow: -5px 3px 10px #b1b1b1, 0px 5px 8px #ffffff;
+    transition: .4s;
+}
+.footerbox p{
+    font-weight: 600;
+}
+.footerbox span{
+    color: blue;
 }
