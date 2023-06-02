@@ -340,7 +340,7 @@ p {}
     width: 70%;
 } */
 
- @media only screen and (max-width: 768px) {
+ @media only screen and (max-width: 520px) {
 
   .first-rowbox {
     flex-direction: column;
@@ -412,5 +412,8 @@ p {}
 .my-pic-info {
 
     text-align: center;
+}
+.footerbox{
+    width: 100%;
 }
  }
