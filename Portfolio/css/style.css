@@ -316,14 +316,29 @@ p {}
     font-weight: 600;
 }
 
+.socialicon{
+    display: flex;
+    justify-content: inherit;
+    width: 100%;
+}
 
+.socialicon i{
+    font-size: 60px;
+    color: black;
+}
 
+.linkd:hover{
+    color: rgb(83, 83, 254);
+}
+.gith:hover{
+    color: rgb(31, 0, 60);
+}
 .skills.linkname.linkinfo {
     margin: 0px 20px;
 }
-.socialmedia img {
+/* .socialmedia img {
     width: 70%;
-}
+} */
 
  @media only screen and (max-width: 768px) {
 

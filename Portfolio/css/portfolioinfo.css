@@ -81,12 +81,12 @@ a {
 .firstrow-box1{
     display: flex;
     flex-direction: column;
-    width: 38%;
+    width: 32%;
     padding-bottom: 10px;
     align-items: center;
     justify-content: space-evenly;
     margin: 40px 22px 10px 17px;
-    height: 450px;
+    height: 460px;
     background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
     border-radius: 30px;
     box-shadow: -5px 3px 10px #b1b1b1, 0px 5px 8px #ffffff;
@@ -115,7 +115,9 @@ a {
     /* justify-content: center; */
 }
 .mysocialmedia p i{
-    padding: 20px 19px;
+    color: black;
+    font-size: 20px;
+    padding: 15px 16px;
     background: grey;
     border-radius: 50%;
     background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
@@ -127,8 +129,20 @@ a {
     inset -10px -10px 15px rgba(255, 255, 255, 0.5),
     inset 10px 10px 15px rgba(70,70,70,0.12);
 }
+.linkd:hover{
+    color: rgb(5, 5, 134);
+}
+.twit:hover{
+    color: rgb(83, 83, 254);
+}
+.insta:hover{
+    color: rgb(180, 3, 3);
+}
+.faceb:hover{
+    color: blue;
+}
 #facebook{
-    padding: 20px 22px;
+    padding: 15px 19px;
     background: grey;
     border-radius: 50%;
     background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
@@ -144,7 +158,7 @@ a {
     text-decoration: none;
     color: black;
     font-weight: 700;
-    padding: 10px 116px;
+    padding: 10px 100px;
     border-radius: 30px;
     background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
     box-shadow: -5px 3px 10px #b1b1b1, 0px 5px 8px #ffffff;
