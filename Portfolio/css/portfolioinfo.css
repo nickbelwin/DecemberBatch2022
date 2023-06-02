@@ -13,46 +13,45 @@ body{
     position: fixed;
     top: 0;
 }
-.header{
+header.header {
     display: flex;
+    padding: 10px;
+    display: flex;
+    margin: auto;
+    width: 1060px;
     justify-content: space-between;
     align-items: center;
-    padding: .625rem 1%;
-    margin: 10px 13% 0 13%;
     background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
     border-radius: 10px;
     box-shadow: -5px 3px 10px #b1b1b1, 0px 5px 8px #ffffff;
-    /* border: 2px solid rgb(231, 220, 220); */
 }
-.logo{
+.logo {
     font-size: 1.8rem;
     font-weight: 700;
     color: rgb(8, 8, 8);
+}
+a {
+    text-decoration: none;
 }
 .logo span{
     color: rgb(39, 0, 181);
 }
 
-.navbar a{
+.navbar a {
     text-decoration: none;
     color: rgb(67, 67, 67);
     background: transparent;
     /* background: linear-gradient(225deg, #fdfdfd, #f0f0f0); */
-    margin-right: 2.5rem;
     font-size: 1.1rem;
     font-weight: 500;
+    margin: 20px;
+    transition: .4s;
 }
-.navbar .active{
-    color: blue;
-}
+
 .navbar a:hover{
     color: blue;
-    /* box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
-    10px 10px 15px rgba(70,70,70,0.12),
-    inset -10px -10px 15px rgba(255, 255, 255, 0.5),
-    inset 10px 10px 15px rgba(70,70,70,0.12); */
 }
-.letstalk a{
+.letstalk a {
     background-color: rgb(47, 99, 255);
     padding: 12px 19px;
     border-radius: 10px;
@@ -60,36 +59,34 @@ body{
     color: white;
     font-weight: 600;
 }
-.main{
-    background: #ebeef1;
-    height: 100vh;
-    width: 100%;
-    margin-top: 74px;
-    margin-bottom: 125px;
+
+.navbar .active {
+    color: blue;
 }
-.main-container{
-    height: 100vh;
-    width: 73vw;
-    margin: 0 13%;
-    background: #ebeef1;
+
+.main{
+    margin: 70px 0 0 0;
+}
+
+.main-container {
+    width: 1080px;
+    margin: auto;
 }
 .first-row{
     display: flex;
-    background: #ebeef1;
-    height: 68%;
-    padding: 20px 20px 0 20px;
-    padding: 20px;
-    display: flex;
-    margin-bottom: 27px;
+    /* align-items: center; */
+    width: inherit;
+    margin-bottom: 10px;
 }
 .firstrow-box1{
     display: flex;
     flex-direction: column;
-    width: 43%;
+    width: 38%;
+    padding-bottom: 10px;
     align-items: center;
     justify-content: space-evenly;
-    margin: 17px 22px 10px 17px;
-    height: 100%;
+    margin: 40px 22px 10px 17px;
+    height: 450px;
     background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
     border-radius: 30px;
     box-shadow: -5px 3px 10px #b1b1b1, 0px 5px 8px #ffffff;
@@ -230,48 +227,43 @@ body{
 .mywork a:hover{
     color: #311afffa;
 }
-.commingsoon{
+.commingsoon {
     background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
     border-radius: 20px;
-    padding: 20px;
-    margin: 0px 34px;
-    width: 91%;
     box-shadow: -5px 3px 10px #b1b1b1, 0px 5px 8px #ffffff;
     transition: .4s;
+    padding: 20px;
+    margin: 20px 0px;
 }
-.commingsoon a{
-    text-decoration: none;
-    color: black;
-    
+
+.commingsoon h1 {
+    font-size: 30px;
+    color: #000;
+    margin: 0;
 }
-.commingsoon h1{
-    font-size: 40px;
-    background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
-}
+
 .commingsoon span{
     color: blue;
 }
+
 .commingsoon:hover{
     box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
     10px 10px 15px rgba(70,70,70,0.12),
-    inset -10px -10px 15px rgba(255,255,255,0.5),
+    inset -10px -10px 15px rgba(255, 255, 255, 0.5),
     inset 10px 10px 15px rgba(70,70,70,0.12);
 }
 footer{
     margin: 0 13% 10px 13%;
 }
-.footerbox{
+.footerbox {
     text-align: center;
+    width: 1060px;
     background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
     border-radius: 20px;
-    padding: 20px;
-    margin: 0px 0px;
-    width: 97%;
     box-shadow: -5px 3px 10px #b1b1b1, 0px 5px 8px #ffffff;
     transition: .4s;
-}
-.footerbox p{
-    font-weight: 600;
+    padding: 18px;
+    margin: auto;
 }
 .footerbox span{
     color: blue;
