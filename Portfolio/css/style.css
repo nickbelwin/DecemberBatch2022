@@ -33,6 +33,7 @@ header.header {
 }
 a {
     text-decoration: none;
+
 }
 .logo span{
     color: rgb(39, 0, 181);
@@ -114,7 +115,6 @@ img {
 }
 
 .firstrow-box:hover{
-    transform: scale(1.01);
     box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
     10px 10px 15px rgba(70,70,70,0.12),
     inset -10px -10px 15px rgba(255, 255, 255, 0.5),
