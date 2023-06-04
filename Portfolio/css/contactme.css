@@ -1,6 +1,7 @@
 *{
     margin: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
 }
 body{
     background: #ebeef1;
@@ -71,7 +72,6 @@ a {
 .main-container {
     width: 1080px;
     margin: auto;
-    height: 630px;
 }
 .first-row {
     background: #ebeef1;
@@ -223,22 +223,17 @@ a {
     inset 10px 10px 15px rgba(70,70,70,0.12);
 }
 footer{
-    margin: 0 13% 10px 13%;
+    margin-top: 10%;
 }
-.footerbox{
-    /* position: fixed;
-    bottom: 5px; */
+.footerbox {
     text-align: center;
+    width: 1089px;
     background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
     border-radius: 20px;
-    padding: 20px;
-    /* margin: 0px 35px; */
-    width: 98%;
     box-shadow: -5px 3px 10px #b1b1b1, 0px 5px 8px #ffffff;
     transition: .4s;
-}
-.footerbox p{
-    font-weight: 600;
+    padding: 20px 0;
+    margin: auto;
 }
 .footerbox span{
     color: blue;
@@ -247,16 +242,15 @@ footer{
 @media only screen and (max-width: 520px) {
     .main{
         width: 94%;
+        margin: auto;
     }
     .main-container{
         width: 100%;
+        
     }
     .spaceheader{
-        height: 10px;
+        
         width: 100%;
-        background-color: #ebeef1;
-        position: fixed;
-        top: 0;
     }
     header.header {
         width: 100%;
@@ -267,13 +261,17 @@ footer{
     .first-row{
         display: flex;
         flex-direction: column;
+        margin-top: 18%;
     }
     .box1{
         width: 100%;
-        height: 300px;
+        /* height: 300px; */
     }
     .box2{
         width: 100%;
     }
-
+    .footerbox{
+        width: 100%;
+        margin-top: 5%;
+    }
 }
