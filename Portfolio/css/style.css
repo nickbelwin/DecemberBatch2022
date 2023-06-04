@@ -264,6 +264,9 @@ footer {
     margin: 0;
 }
 
+.commingsoon a{
+    text-decoration: none;
+}
 .commingsoon span{
     color: blue;
 }
