@@ -31,10 +31,10 @@ header.header {
     font-weight: 700;
     color: rgb(8, 8, 8);
 }
-a {
+/* a {
     text-decoration: none;
 
-}
+} */
 .logo span{
     color: rgb(39, 0, 181);
 }
@@ -89,7 +89,7 @@ a {
 }
 .my-pic-info a{
     text-decoration: none;
-    color: #000;
+    color: black;
 }
 img {
     width: 100%;
@@ -151,11 +151,9 @@ di {}
     justify-content: space-evenly;
 }
 
-.linkname a:hover{
+.bluelink a:hover{
     color: blue;
 }
-
-.portfolio.linkname.linkinfo {}
 
 p.line-box {
     border-radius: 25px;
@@ -318,10 +316,10 @@ p {}
 }
 
 .linkd:hover{
-    color: rgb(83, 83, 254);
+    color: rgb(10, 10, 193);
 }
 .gith:hover{
-    color: rgb(31, 0, 60);
+    color: rgb(75, 2, 143);
 }
 .skills.linkname.linkinfo {
     margin: 0px 20px;
@@ -464,14 +462,14 @@ p {}
       }
       .my-pic-info a{
         text-decoration: none;
-        color: #000;
+        color: black;
         /* font-size: 20px; */
     }
        p.line-box {
         margin: 0px 0px 10px 0px;
-        font-size: 9px;
+        font-size: 15px;
         font-weight: 600;
-        letter-spacing: 1px;
+        padding: 14px 10px;
     }
        
       .main-container {
