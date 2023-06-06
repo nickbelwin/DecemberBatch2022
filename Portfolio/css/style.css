@@ -91,6 +91,9 @@ header.header {
     text-decoration: none;
     color: black;
 }
+.my-pic-info p:hover{
+    color: blue;
+}
 img {
     width: 100%;
 }
