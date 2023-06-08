@@ -99,11 +99,14 @@ a {
 }
 .welcomebox h1{
     font-size: 40px;
+    text-align: center;
 }
 .welcomebox p{
+    text-align: center;
     color: grey;
     font-size: 13px;
     letter-spacing: 1px;
+    margin-bottom: 10px;
 }
 .box1 a{
     text-decoration: none;
@@ -243,7 +246,7 @@ footer{
     .main{
         width: 94%;
         margin: auto;
-    }
+    } 
     .main-container{
         width: 100%;
         
