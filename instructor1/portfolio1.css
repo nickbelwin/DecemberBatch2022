@@ -178,3 +178,8 @@ body{
         opacity: 1;
     }
 }
+@media only screen and(max-width:520){
+    .home-img img{
+        display: none;
+    }
+}
