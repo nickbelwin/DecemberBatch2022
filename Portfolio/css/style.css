@@ -153,10 +153,10 @@ img {
     height: 230px;
     justify-content: space-evenly;
 }
-.credmargi{
+.credmargi, .skillmargi{
     margin: 0 10px;
 }
-.portmargi{
+.portmargi, .socialmargi{
     margin-left: 10px
 }
 .mycvmargi{
@@ -215,6 +215,11 @@ p.line-box:hover{
 .mycvdownload {
     width: 35%;
 }
+
+.mycv, .profile{
+    width: 75%;
+    text-align: left;
+}
 .mycvdownload:hover{
     box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
     10px 10px 15px rgba(70,70,70,0.12),
@@ -226,6 +231,7 @@ p.line-box:hover{
     background: linear-gradient(225deg, #fdfdfd, #f0f0f0);
     border-radius: 20px;
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
     box-shadow: -5px 3px 10px #b1b1b1, 0px 5px 8px #ffffff;
@@ -233,11 +239,18 @@ p.line-box:hover{
 }
 
 .skill-icon {
+    width: 100%;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .skill-icon p {
     width: 60px;
+}
+.skills{
+    /* margin: 0px 20px; */
+    width: 75%;
+    text-align: left;
 }
 .skill-box:hover{
     box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
@@ -329,9 +342,7 @@ h5 {
 .gith:hover{
     color: rgb(75, 2, 143);
 }
-.skills.linkname.linkinfo {
-    margin: 0px 20px;
-}
+
 /* .socialmedia img {
     width: 70%;
 } */
@@ -487,6 +498,7 @@ h5 {
       .about-info {
           column-gap: 10px;
       }
+      
       .second-rowbox {
       flex-wrap: wrap;
       }
@@ -495,6 +507,9 @@ h5 {
           width: 100%;
           padding: 20px;
           margin-bottom: 17px;
+          height: 200px;
+          margin-left: 0;
+          margin-right: 0;
       }
        
       .socialmedia {
