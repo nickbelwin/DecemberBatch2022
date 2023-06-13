@@ -258,7 +258,7 @@ header{
 }
 .home2{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     text-align: justify;
     justify-content: space-between;
