@@ -455,7 +455,9 @@ h5 {
    }   */
 
 @media only screen and (max-width: 520px) {
-
+    .main{
+        margin: 70px 10px 0px 10px;
+    }
     .first-rowbox {
       flex-direction: column;
       margin: 0;
@@ -517,7 +519,6 @@ h5 {
         margin: 0;
         height: 195px;
       }
-  
       .credential.linkname.linkinfo, .portfolio {
           
           height: 195px;
